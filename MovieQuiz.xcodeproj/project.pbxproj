@@ -14,6 +14,30 @@
 		731B5A6029EAC1F300EC8512 /* MovieQuiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 731B5A5E29EAC1F300EC8512 /* MovieQuiz.xcdatamodeld */; };
 		731B5A6229EAC1F400EC8512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731B5A6129EAC1F400EC8512 /* Assets.xcassets */; };
 		731B5A6529EAC1F400EC8512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731B5A6329EAC1F400EC8512 /* LaunchScreen.storyboard */; };
+		731B5AB229EAC33500EC8512 /* quote5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AA529EAC2ED00EC8512 /* quote5.mp3 */; };
+		731B5AB329EAC33500EC8512 /* quote2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AA329EAC2ED00EC8512 /* quote2.mp3 */; };
+		731B5AB429EAC33500EC8512 /* quote9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AA229EAC2ED00EC8512 /* quote9.mp3 */; };
+		731B5AB529EAC33500EC8512 /* quote1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AA729EAC2ED00EC8512 /* quote1.mp3 */; };
+		731B5AB629EAC33500EC8512 /* quote8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AAA29EAC2ED00EC8512 /* quote8.mp3 */; };
+		731B5AB729EAC33500EC8512 /* quote10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AB129EAC2EE00EC8512 /* quote10.mp3 */; };
+		731B5AB829EAC33500EC8512 /* quote12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5A9E29EAC2ED00EC8512 /* quote12.mp3 */; };
+		731B5AB929EAC33500EC8512 /* quote3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AA429EAC2ED00EC8512 /* quote3.mp3 */; };
+		731B5ABA29EAC33500EC8512 /* quote14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AAF29EAC2ED00EC8512 /* quote14.mp3 */; };
+		731B5ABB29EAC33500EC8512 /* quote15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AAD29EAC2ED00EC8512 /* quote15.mp3 */; };
+		731B5ABC29EAC33500EC8512 /* quizes.json in Resources */ = {isa = PBXBuildFile; fileRef = 731B5A9C29EAC2ED00EC8512 /* quizes.json */; };
+		731B5ABD29EAC33500EC8512 /* quote13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AAC29EAC2ED00EC8512 /* quote13.mp3 */; };
+		731B5ABE29EAC33500EC8512 /* quote11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AA129EAC2ED00EC8512 /* quote11.mp3 */; };
+		731B5ABF29EAC33500EC8512 /* quote16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5A9B29EAC2ED00EC8512 /* quote16.mp3 */; };
+		731B5AC029EAC33500EC8512 /* quote17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AA829EAC2ED00EC8512 /* quote17.mp3 */; };
+		731B5AC129EAC33500EC8512 /* quote18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5A9D29EAC2ED00EC8512 /* quote18.mp3 */; };
+		731B5AC229EAC33500EC8512 /* MarchaImperial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AAB29EAC2ED00EC8512 /* MarchaImperial.mp3 */; };
+		731B5AC329EAC33500EC8512 /* quote4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AB029EAC2EE00EC8512 /* quote4.mp3 */; };
+		731B5AC429EAC33500EC8512 /* quote6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AAE29EAC2ED00EC8512 /* quote6.mp3 */; };
+		731B5AC529EAC33500EC8512 /* options.json in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AA629EAC2ED00EC8512 /* options.json */; };
+		731B5AC629EAC33500EC8512 /* quote7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AA029EAC2ED00EC8512 /* quote7.mp3 */; };
+		731B5AC729EAC33500EC8512 /* quote19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5A9F29EAC2ED00EC8512 /* quote19.mp3 */; };
+		731B5AC829EAC33500EC8512 /* quote20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AA929EAC2ED00EC8512 /* quote20.mp3 */; };
+		73E24D6429EAD1C800201502 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E24D6329EAD1C800201502 /* GameOverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +50,30 @@
 		731B5A6129EAC1F400EC8512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		731B5A6429EAC1F400EC8512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		731B5A6629EAC1F400EC8512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731B5A9B29EAC2ED00EC8512 /* quote16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote16.mp3; sourceTree = "<group>"; };
+		731B5A9C29EAC2ED00EC8512 /* quizes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quizes.json; sourceTree = "<group>"; };
+		731B5A9D29EAC2ED00EC8512 /* quote18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote18.mp3; sourceTree = "<group>"; };
+		731B5A9E29EAC2ED00EC8512 /* quote12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote12.mp3; sourceTree = "<group>"; };
+		731B5A9F29EAC2ED00EC8512 /* quote19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote19.mp3; sourceTree = "<group>"; };
+		731B5AA029EAC2ED00EC8512 /* quote7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote7.mp3; sourceTree = "<group>"; };
+		731B5AA129EAC2ED00EC8512 /* quote11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote11.mp3; sourceTree = "<group>"; };
+		731B5AA229EAC2ED00EC8512 /* quote9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote9.mp3; sourceTree = "<group>"; };
+		731B5AA329EAC2ED00EC8512 /* quote2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote2.mp3; sourceTree = "<group>"; };
+		731B5AA429EAC2ED00EC8512 /* quote3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote3.mp3; sourceTree = "<group>"; };
+		731B5AA529EAC2ED00EC8512 /* quote5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote5.mp3; sourceTree = "<group>"; };
+		731B5AA629EAC2ED00EC8512 /* options.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = options.json; sourceTree = "<group>"; };
+		731B5AA729EAC2ED00EC8512 /* quote1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote1.mp3; sourceTree = "<group>"; };
+		731B5AA829EAC2ED00EC8512 /* quote17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote17.mp3; sourceTree = "<group>"; };
+		731B5AA929EAC2ED00EC8512 /* quote20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote20.mp3; sourceTree = "<group>"; };
+		731B5AAA29EAC2ED00EC8512 /* quote8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote8.mp3; sourceTree = "<group>"; };
+		731B5AAB29EAC2ED00EC8512 /* MarchaImperial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MarchaImperial.mp3; sourceTree = "<group>"; };
+		731B5AAC29EAC2ED00EC8512 /* quote13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote13.mp3; sourceTree = "<group>"; };
+		731B5AAD29EAC2ED00EC8512 /* quote15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote15.mp3; sourceTree = "<group>"; };
+		731B5AAE29EAC2ED00EC8512 /* quote6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote6.mp3; sourceTree = "<group>"; };
+		731B5AAF29EAC2ED00EC8512 /* quote14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote14.mp3; sourceTree = "<group>"; };
+		731B5AB029EAC2EE00EC8512 /* quote4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote4.mp3; sourceTree = "<group>"; };
+		731B5AB129EAC2EE00EC8512 /* quote10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote10.mp3; sourceTree = "<group>"; };
+		73E24D6329EAD1C800201502 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +90,7 @@
 		731B5A4929EAC1F300EC8512 = {
 			isa = PBXGroup;
 			children = (
+				73E24D6329EAD1C800201502 /* GameOverViewController.swift */,
 				731B5A5429EAC1F300EC8512 /* MovieQuiz */,
 				731B5A5329EAC1F300EC8512 /* Products */,
 			);
@@ -62,12 +111,43 @@
 				731B5A5729EAC1F300EC8512 /* SceneDelegate.swift */,
 				731B5A5929EAC1F300EC8512 /* ViewController.swift */,
 				731B5A5B29EAC1F300EC8512 /* Main.storyboard */,
+				731B5A9A29EAC2ED00EC8512 /* Files */,
 				731B5A6129EAC1F400EC8512 /* Assets.xcassets */,
 				731B5A6329EAC1F400EC8512 /* LaunchScreen.storyboard */,
 				731B5A6629EAC1F400EC8512 /* Info.plist */,
 				731B5A5E29EAC1F300EC8512 /* MovieQuiz.xcdatamodeld */,
 			);
 			path = MovieQuiz;
+			sourceTree = "<group>";
+		};
+		731B5A9A29EAC2ED00EC8512 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				731B5AAB29EAC2ED00EC8512 /* MarchaImperial.mp3 */,
+				731B5AA629EAC2ED00EC8512 /* options.json */,
+				731B5A9C29EAC2ED00EC8512 /* quizes.json */,
+				731B5AA729EAC2ED00EC8512 /* quote1.mp3 */,
+				731B5AA329EAC2ED00EC8512 /* quote2.mp3 */,
+				731B5AA429EAC2ED00EC8512 /* quote3.mp3 */,
+				731B5AB029EAC2EE00EC8512 /* quote4.mp3 */,
+				731B5AA529EAC2ED00EC8512 /* quote5.mp3 */,
+				731B5AAE29EAC2ED00EC8512 /* quote6.mp3 */,
+				731B5AA029EAC2ED00EC8512 /* quote7.mp3 */,
+				731B5AAA29EAC2ED00EC8512 /* quote8.mp3 */,
+				731B5AA229EAC2ED00EC8512 /* quote9.mp3 */,
+				731B5AB129EAC2EE00EC8512 /* quote10.mp3 */,
+				731B5AA129EAC2ED00EC8512 /* quote11.mp3 */,
+				731B5A9E29EAC2ED00EC8512 /* quote12.mp3 */,
+				731B5AAC29EAC2ED00EC8512 /* quote13.mp3 */,
+				731B5AAF29EAC2ED00EC8512 /* quote14.mp3 */,
+				731B5AAD29EAC2ED00EC8512 /* quote15.mp3 */,
+				731B5A9B29EAC2ED00EC8512 /* quote16.mp3 */,
+				731B5AA829EAC2ED00EC8512 /* quote17.mp3 */,
+				731B5A9D29EAC2ED00EC8512 /* quote18.mp3 */,
+				731B5A9F29EAC2ED00EC8512 /* quote19.mp3 */,
+				731B5AA929EAC2ED00EC8512 /* quote20.mp3 */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +208,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731B5ABB29EAC33500EC8512 /* quote15.mp3 in Resources */,
+				731B5AB829EAC33500EC8512 /* quote12.mp3 in Resources */,
 				731B5A6529EAC1F400EC8512 /* LaunchScreen.storyboard in Resources */,
+				731B5AC829EAC33500EC8512 /* quote20.mp3 in Resources */,
+				731B5AC729EAC33500EC8512 /* quote19.mp3 in Resources */,
+				731B5AB429EAC33500EC8512 /* quote9.mp3 in Resources */,
+				731B5AB529EAC33500EC8512 /* quote1.mp3 in Resources */,
+				731B5AC029EAC33500EC8512 /* quote17.mp3 in Resources */,
+				731B5AC329EAC33500EC8512 /* quote4.mp3 in Resources */,
 				731B5A6229EAC1F400EC8512 /* Assets.xcassets in Resources */,
+				731B5AC129EAC33500EC8512 /* quote18.mp3 in Resources */,
+				731B5AC529EAC33500EC8512 /* options.json in Resources */,
+				731B5ABC29EAC33500EC8512 /* quizes.json in Resources */,
+				731B5AB929EAC33500EC8512 /* quote3.mp3 in Resources */,
+				731B5AB329EAC33500EC8512 /* quote2.mp3 in Resources */,
+				731B5AC429EAC33500EC8512 /* quote6.mp3 in Resources */,
+				731B5AC229EAC33500EC8512 /* MarchaImperial.mp3 in Resources */,
+				731B5ABE29EAC33500EC8512 /* quote11.mp3 in Resources */,
 				731B5A5D29EAC1F300EC8512 /* Main.storyboard in Resources */,
+				731B5ABF29EAC33500EC8512 /* quote16.mp3 in Resources */,
+				731B5ABA29EAC33500EC8512 /* quote14.mp3 in Resources */,
+				731B5AB629EAC33500EC8512 /* quote8.mp3 in Resources */,
+				731B5AB229EAC33500EC8512 /* quote5.mp3 in Resources */,
+				731B5AC629EAC33500EC8512 /* quote7.mp3 in Resources */,
+				731B5AB729EAC33500EC8512 /* quote10.mp3 in Resources */,
+				731B5ABD29EAC33500EC8512 /* quote13.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +248,7 @@
 				731B5A5629EAC1F300EC8512 /* AppDelegate.swift in Sources */,
 				731B5A5829EAC1F300EC8512 /* SceneDelegate.swift in Sources */,
 				731B5A6029EAC1F300EC8512 /* MovieQuiz.xcdatamodeld in Sources */,
+				73E24D6429EAD1C800201502 /* GameOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +401,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +410,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abnerlima.MovieQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,8 +432,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +441,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abnerlima.MovieQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
