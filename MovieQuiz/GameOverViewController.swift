@@ -11,9 +11,12 @@ class GameOverViewController: UIViewController {
 
     @IBOutlet weak var lbScore: UILabel!
     
+    var score: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        lbScore.text = "\(score)"
         // Do any additional setup after loading the view.
     }
     
