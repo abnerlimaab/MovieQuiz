@@ -92,8 +92,6 @@
 		731B5A4929EAC1F300EC8512 = {
 			isa = PBXGroup;
 			children = (
-				73E24D6529EAD65E00201502 /* QuizManager.swift */,
-				73E24D6329EAD1C800201502 /* GameOverViewController.swift */,
 				731B5A5429EAC1F300EC8512 /* MovieQuiz */,
 				731B5A5329EAC1F300EC8512 /* Products */,
 			);
@@ -110,6 +108,8 @@
 		731B5A5429EAC1F300EC8512 /* MovieQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				73E24D6529EAD65E00201502 /* QuizManager.swift */,
+				73E24D6329EAD1C800201502 /* GameOverViewController.swift */,
 				731B5A5529EAC1F300EC8512 /* AppDelegate.swift */,
 				731B5A5729EAC1F300EC8512 /* SceneDelegate.swift */,
 				731B5A5929EAC1F300EC8512 /* ViewController.swift */,

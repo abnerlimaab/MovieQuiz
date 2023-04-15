@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MovieQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="xZP-lp-GiM">
-                                <rect key="frame" x="-1" y="0.0" width="321" height="568"/>
+                                <rect key="frame" x="-1" y="0.0" width="431" height="932"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MXm-ID-27d">
@@ -26,10 +26,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZN-GR-yDe">
-                                <rect key="frame" x="0.0" y="526" width="320" height="42"/>
+                                <rect key="frame" x="0.0" y="856" width="430" height="42"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWB-zi-PXJ">
-                                        <rect key="frame" x="0.0" y="2.5" width="47" height="37"/>
+                                        <rect key="frame" x="0.0" y="2.6666666666666288" width="47" height="37"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="pause"/>
                                         <connections>
@@ -37,7 +37,7 @@
                                         </connections>
                                     </button>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pxz-NM-SDT">
-                                        <rect key="frame" x="53" y="6" width="219" height="31"/>
+                                        <rect key="frame" x="53" y="6" width="329" height="31"/>
                                         <connections>
                                             <action selector="changeMusicTime:" destination="BYZ-38-t0r" eventType="valueChanged" id="0l5-Mu-XV4"/>
                                         </connections>
@@ -55,7 +55,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAh-A9-HIE">
-                                <rect key="frame" x="273" y="528.5" width="47" height="37"/>
+                                <rect key="frame" x="383" y="858.66666666666663" width="47" height="37"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="music"/>
                                 <connections>
@@ -63,7 +63,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTi-gZ-4rE">
-                                <rect key="frame" x="0.0" y="478" width="320" height="36"/>
+                                <rect key="frame" x="0.0" y="808" width="430" height="36"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="mCL-Br-P4j"/>
@@ -77,7 +77,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PD3-1U-ISU">
-                                <rect key="frame" x="0.0" y="434" width="320" height="36"/>
+                                <rect key="frame" x="0.0" y="764" width="430" height="36"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="5MV-WU-Cwh"/>
@@ -91,7 +91,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TbR-DL-xP9">
-                                <rect key="frame" x="0.0" y="390" width="320" height="36"/>
+                                <rect key="frame" x="0.0" y="720" width="430" height="36"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="qBQ-fL-6w6"/>
@@ -105,7 +105,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYm-II-Zri">
-                                <rect key="frame" x="0.0" y="346" width="320" height="36"/>
+                                <rect key="frame" x="0.0" y="676" width="430" height="36"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="bZp-39-dYA"/>
@@ -119,16 +119,16 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HUp-t9-SKy">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="326"/>
+                                <rect key="frame" x="0.0" y="59" width="430" height="597"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movieSound" translatesAutoresizingMaskIntoConstraints="NO" id="kox-ym-DNk">
-                                        <rect key="frame" x="0.0" y="49" width="320" height="228"/>
+                                        <rect key="frame" x="0.0" y="145" width="430" height="307"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="kox-ym-DNk" secondAttribute="height" multiplier="750:535" id="36d-i4-FOL"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iei-Pz-FuG">
-                                        <rect key="frame" x="0.0" y="49" width="320" height="228"/>
+                                        <rect key="frame" x="0.0" y="145" width="430" height="307"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
@@ -194,34 +194,34 @@
         <!--Game Over View Controller-->
         <scene sceneID="1Px-fs-RCf">
             <objects>
-                <viewController id="A9L-Fj-Ba1" customClass="GameOverViewController" customModule="MovieQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="A9L-Fj-Ba1" customClass="GameOverViewController" customModule="MovieQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Ck-Ym-z6M">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gameOver" translatesAutoresizingMaskIntoConstraints="NO" id="h1c-fP-gaK">
-                                <rect key="frame" x="-4" y="-4" width="328" height="556"/>
+                                <rect key="frame" x="-4" y="-4" width="438" height="940"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parabéns!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8GK-qc-nT9">
-                                <rect key="frame" x="0.0" y="130" width="320" height="54"/>
+                                <rect key="frame" x="0.0" y="129" width="430" height="54"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="45"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O seu total de acertos foi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5w-fd-hAS">
-                                <rect key="frame" x="0.0" y="192" width="320" height="21"/>
+                                <rect key="frame" x="0.0" y="191" width="430" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chM-ox-6NS">
-                                <rect key="frame" x="36.5" y="221" width="247" height="158"/>
+                                <rect key="frame" x="91.666666666666686" y="220" width="247" height="158"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="132"/>
                                 <color key="textColor" red="1" green="1" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGV-bP-b1H">
-                                <rect key="frame" x="20" y="478" width="280" height="40"/>
+                                <rect key="frame" x="20" y="828" width="390" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.32941176470588235" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Bwm-zk-yOd"/>
@@ -245,7 +245,7 @@
                             <constraint firstItem="8GK-qc-nT9" firstAttribute="leading" secondItem="sfg-op-dSq" secondAttribute="leading" id="RJ1-ud-sWS"/>
                             <constraint firstAttribute="bottom" secondItem="h1c-fP-gaK" secondAttribute="bottom" constant="-4" id="aXh-H6-iOC"/>
                             <constraint firstItem="sfg-op-dSq" firstAttribute="bottom" secondItem="QGV-bP-b1H" secondAttribute="bottom" constant="30" id="cf6-r4-WIf"/>
-                            <constraint firstItem="8GK-qc-nT9" firstAttribute="top" secondItem="sfg-op-dSq" secondAttribute="top" constant="130" id="dSt-zc-IH3"/>
+                            <constraint firstItem="8GK-qc-nT9" firstAttribute="top" secondItem="sfg-op-dSq" secondAttribute="top" constant="70" id="dSt-zc-IH3"/>
                             <constraint firstAttribute="trailing" secondItem="h1c-fP-gaK" secondAttribute="trailing" constant="-4" id="gKX-c6-mBR"/>
                             <constraint firstItem="sfg-op-dSq" firstAttribute="trailing" secondItem="8GK-qc-nT9" secondAttribute="trailing" id="gmB-Rq-fGP"/>
                             <constraint firstItem="chM-ox-6NS" firstAttribute="top" secondItem="c5w-fd-hAS" secondAttribute="bottom" constant="8" id="kkn-Nd-6Cq"/>
@@ -267,9 +267,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="375" height="667"/>
+        <image name="background" width="414" height="736"/>
         <image name="gameOver" width="375" height="667"/>
-        <image name="movieSound" width="375" height="267.5"/>
+        <image name="movieSound" width="414" height="295.33334350585938"/>
         <image name="music" width="23" height="23"/>
         <image name="pause" width="23" height="23"/>
         <systemColor name="systemBackgroundColor">
