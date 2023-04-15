@@ -38,6 +38,7 @@
 		731B5AC729EAC33500EC8512 /* quote19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5A9F29EAC2ED00EC8512 /* quote19.mp3 */; };
 		731B5AC829EAC33500EC8512 /* quote20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 731B5AA929EAC2ED00EC8512 /* quote20.mp3 */; };
 		73E24D6429EAD1C800201502 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E24D6329EAD1C800201502 /* GameOverViewController.swift */; };
+		73E24D6629EAD65F00201502 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E24D6529EAD65E00201502 /* QuizManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		731B5AB029EAC2EE00EC8512 /* quote4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote4.mp3; sourceTree = "<group>"; };
 		731B5AB129EAC2EE00EC8512 /* quote10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote10.mp3; sourceTree = "<group>"; };
 		73E24D6329EAD1C800201502 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		73E24D6529EAD65E00201502 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		731B5A4929EAC1F300EC8512 = {
 			isa = PBXGroup;
 			children = (
+				73E24D6529EAD65E00201502 /* QuizManager.swift */,
 				73E24D6329EAD1C800201502 /* GameOverViewController.swift */,
 				731B5A5429EAC1F300EC8512 /* MovieQuiz */,
 				731B5A5329EAC1F300EC8512 /* Products */,
@@ -248,6 +251,7 @@
 				731B5A5629EAC1F300EC8512 /* AppDelegate.swift in Sources */,
 				731B5A5829EAC1F300EC8512 /* SceneDelegate.swift in Sources */,
 				731B5A6029EAC1F300EC8512 /* MovieQuiz.xcdatamodeld in Sources */,
+				73E24D6629EAD65F00201502 /* QuizManager.swift in Sources */,
 				73E24D6429EAD1C800201502 /* GameOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

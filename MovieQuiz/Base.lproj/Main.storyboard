@@ -20,6 +20,11 @@
                                 <rect key="frame" x="-1" y="0.0" width="321" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MXm-ID-27d">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZN-GR-yDe">
                                 <rect key="frame" x="0.0" y="526" width="320" height="42"/>
                                 <subviews>
@@ -171,6 +176,7 @@
                         <outlet property="ivQuiz" destination="kox-ym-DNk" id="bpT-VV-4Mh"/>
                         <outlet property="slMusic" destination="Pxz-NM-SDT" id="LZK-Rf-jdd"/>
                         <outlet property="viSoundBar" destination="PZN-GR-yDe" id="MQj-QV-hYE"/>
+                        <outlet property="viTimer" destination="MXm-ID-27d" id="YVS-xo-lBq"/>
                         <outletCollection property="btOptions" destination="dYm-II-Zri" collectionClass="NSMutableArray" id="gcH-FD-jaU"/>
                         <outletCollection property="btOptions" destination="TbR-DL-xP9" collectionClass="NSMutableArray" id="PgS-Va-R8A"/>
                         <outletCollection property="btOptions" destination="PD3-1U-ISU" collectionClass="NSMutableArray" id="bvh-XM-bCx"/>
